@@ -54,14 +54,11 @@ nav ul li a{
     text-transform: uppercase;
     border-radius: 4px;
     font-family: 'Palatino Linotype',sans-serif;
-  
-
 }
 nav ul li a.active,
 nav ul li a:hover {
     background: rgb(8, 8, 8);
     color: hsl(61, 100%, 49%);
-
 }
 .profileimg{
     margin-top: 100px;
@@ -70,13 +67,11 @@ nav ul li a:hover {
 }
 
 h3{
-    
     font-size: 25px;
     text-align: center;
     margin-bottom: 20;
     margin-top: 15;
     font-family: 'Palatino Linotype',sans-serif;  
-
 }
 h4{
     margin-top: 0;
@@ -85,9 +80,7 @@ h4{
     margin-bottom: 10;
     font-family: 'Palatino Linotype',sans-serif;  
 }
-
 .container000{
-    
     display: flex;
     flex-wrap: wrap;
     max-width: auto;
@@ -100,7 +93,6 @@ h4{
     left: 12px;
 }
 .container001{
-    
     display: flex;
     flex-wrap: wrap;
     max-width: auto;
@@ -147,8 +139,6 @@ fieldset{
     list-style: none;
     padding: 0;
 }
-
-
 .Groupbig{
     display: flex;
     flex-wrap: wrap;
@@ -187,7 +177,6 @@ fieldset{
         width: 50%;
         }
   }
-
   @media screen and (max-width:768px){
     fieldset{
         background: black;
@@ -240,7 +229,6 @@ fieldset{
         margin: 0;
     }
   }
-  
   @media screen and (max-width: 360px) {
     .Group1 {
       width: 100%;
@@ -269,8 +257,6 @@ fieldset{
           text-align: right;
       }
   }
-
-
   .containerep { width: 100%; 
 margin: 0; padding: 0;
 }
