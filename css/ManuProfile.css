@@ -23,28 +23,10 @@ header
     right: 12px;
     left: 12px;
     top: 12px;
-
 }
 .logo > img{
-   /* color:#29EFEF;
-   height: 60px;
-   
-   font-size: 36px;
-   line-height: 60px;
-    padding: 0 20px;
-    text-align: center;
-    box-sizing: border-box;
-    float: left;
-    font-weight: 700;
-    text-decoration: none;
-    
-    */
-
     width: 60px;
-    
     float: left;
-   
-
 }
 nav{
     float: right;
@@ -89,7 +71,7 @@ nav ul li a:hover {
 
 h3{
     
-    font-size: 3.9vh;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 20;
     margin-top: 15;
@@ -98,7 +80,7 @@ h3{
 }
 h4{
     margin-top: 0;
-    font-size: 4.2vh;
+    font-size: 27px;
     text-align: center;
     margin-bottom: 10;
     font-family: 'Palatino Linotype',sans-serif;  
@@ -116,11 +98,7 @@ h4{
     /* box-shadow: 0 2px 5px rgba(0,0,0,.2); */
     right: 12px;
     left: 12px;
-
-    
 }
-
-
 .container001{
     
     display: flex;
@@ -132,18 +110,15 @@ h4{
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
     right: 12px;
-    left: 12px;
-
-    
+    left: 12px; 
 }
-
 h5{
     margin: 0;
-    font-size: 4.5vh;
+    font-size: 30px;
     text-align: center;
     font-family: 'Palatino Linotype',sans-serif;
     margin-bottom: 5;
-    margin-top: 10;
+    margin-top: 5px;
 }
 .C1{
     text-align: center;
@@ -151,22 +126,13 @@ h5{
 .C2{
     text-indent: 5vmax;
 }
-
-
-
 br{
     margin: 1;
 }
-
-
 .center{
     align-content: center;
     text-align: center;
-
 }
-
-
-
 fieldset{
     background: black;
     border: 0;
@@ -176,8 +142,6 @@ fieldset{
     font-size: 10px;
     text-align: right;
 }
-
-
 *{
     font-family: 'Palatino Linotype',sans-serif;
     list-style: none;
@@ -198,7 +162,6 @@ fieldset{
     display: table;
     clear: both;
   }
-
 * {
     box-sizing: border-box;
   }
@@ -213,17 +176,16 @@ fieldset{
     clear: both;
   }
   @media(max-width:1200px)
-{
-    header
     {
-        margin: 12px;
+        header
+        {
+            margin: 12px;
+        }
     }
-}
-  
   @media screen and (max-width:1024px) {
-    .Group1 {
-      width: 50%;
-    }
+        .Group1 {
+        width: 50%;
+        }
   }
 
   @media screen and (max-width:768px){
@@ -253,7 +215,7 @@ fieldset{
       text-align: center;
       font-size: 30px;
       color: #29EFEF;
-      
+     
     }
     .menu-toggle:before{
         content: '\f0c9';
@@ -292,6 +254,20 @@ fieldset{
         font-size: 11px;
         text-align: right;
     }
+  }
+  @media screen and (max-width:180px){
+    .Group1 {
+        width: 100%;
+      }
+      fieldset{
+          background: black;
+          border: 0;
+          padding: 5px;
+          margin: 0;
+          color: white;
+          font-size: 10px;
+          text-align: right;
+      }
   }
 
 
