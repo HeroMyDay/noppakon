@@ -81,53 +81,6 @@ nav ul li a:hover {
     color: hsl(61, 100%, 49%);
 
 }
-
-@media(max-width:1200px)
-{
-    header
-    {
-        margin: 12px;
-    }
-}
-@media(max-width:768px)
-{
-    .menu-toggle
-    {
-      display: block;
-      width: 40px;
-      height: 40px;
-      margin: 10px;
-      float: right;
-      cursor: pointer;
-      text-align: center;
-      font-size: 30px;
-      color: #29EFEF;
-      
-    }
-    .menu-toggle:before{
-        content: '\f0c9';
-        font-family: fontawesome;
-        line-height: 40px;
-    }
-    .menu-toggle.active:before{
-        content: '\f00d';
-    }
-    nav{
-        display: none;
-    }
-    nav.active{
-        display: block;
-        width: 100%;
-    }
-    nav.active ul{
-        display: block;
-        
-    }
-    nav.active ul {
-        margin: 0;
-    }
-}
-
 .profileimg{
     margin-top: 100px;
     border-radius: 50%;
@@ -224,23 +177,7 @@ fieldset{
     text-align: right;
 }
 
-@media screen and (max-width: 1024px) {
-    .ccontainer{
-        width: 100%;
-    }
-  }
-@media screen and (max-width: 365px) {
-    fieldset{
-        background: black;
-        border: 0;
-        padding: 15px;
-        margin: 0;
-        color: white;
-        font-size: 4px;
-        text-align: right;
-    }
 
-}
 *{
     font-family: 'Palatino Linotype',sans-serif;
     list-style: none;
@@ -275,16 +212,85 @@ fieldset{
     display: table;
     clear: both;
   }
+  @media(max-width:1200px)
+{
+    header
+    {
+        margin: 12px;
+    }
+}
   
   @media screen and (max-width:1024px) {
     .Group1 {
       width: 50%;
     }
   }
+
+  @media screen and (max-width:768px){
+    fieldset{
+        background: black;
+        border: 0;
+        padding: 10px;
+        margin: 0;
+        color: white;
+        font-size: 12px;
+        text-align: right;
+    }
+    .Group1{
+        width: 50%;
+    }
+    .ccontainer{
+        width: 100%;
+    }
+    .menu-toggle
+    {
+      display: block;
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+      float: right;
+      cursor: pointer;
+      text-align: center;
+      font-size: 30px;
+      color: #29EFEF;
+      
+    }
+    .menu-toggle:before{
+        content: '\f0c9';
+        font-family: fontawesome;
+        line-height: 40px;
+    }
+    .menu-toggle.active:before{
+        content: '\f00d';
+    }
+    nav{
+        display: none;
+    }
+    nav.active{
+        display: block;
+        width: 100%;
+    }
+    nav.active ul{
+        display: block;
+        
+    }
+    nav.active ul {
+        margin: 0;
+    }
+  }
   
   @media screen and (max-width: 360px) {
     .Group1 {
       width: 100%;
+    }
+    fieldset{
+        background: black;
+        border: 0;
+        padding: 5px;
+        margin: 0;
+        color: white;
+        font-size: 11px;
+        text-align: right;
     }
   }
 
